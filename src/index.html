@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {}
+    </script>
+    <style type="text/tailwindcss">
+        .grid-container {
+            @apply grid grid-cols-2 gap-1
+        }
+
+        .grid-item {
+            @apply flex justify-center items-center bg-orange-100
+        }
+    </style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item">01</div>
+    <div class="grid-item">02</div>
+    <div class="grid-item">03</div>
+    <div class="grid-item">04</div>
+    <div class="grid-item">05</div>
+    <div class="grid-item">06</div>
+    <div class="grid-item">07</div>
+    <div class="grid-item">08</div>
+    <div class="grid-item">09</div>
+</div>
+</body>
+</html>
